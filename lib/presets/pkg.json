@@ -1,0 +1,4 @@
+{
+    "install-from" : "https://example.com/file/download",
+    "save-as" : "file.txt"
+}
