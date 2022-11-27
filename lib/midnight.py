@@ -17,7 +17,6 @@ def install(pkg):
             zip_ref.extractall(pkg)
             f = open(f"{pkg}/{pkg}/{pkg}")
             data = json.load(f)
-            #data["url"]
             get = wget.download(data["url"])
             f.close()
     else:
