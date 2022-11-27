@@ -15,7 +15,7 @@ print(f"""
                                            
                                            
                                   
-{build_version}
+{build_version} ( Test version )
 
 """)
 
