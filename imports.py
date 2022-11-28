@@ -8,6 +8,8 @@ from lib import midnight
 
 from lib import file
 
+from lib import math
+
 import os
 
 import sys

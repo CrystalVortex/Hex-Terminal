@@ -1,4 +1,5 @@
 import os
+import wget
 
 def md(foldername):
     print(f"Creating folder {foldername}...")
@@ -38,3 +39,9 @@ def edit(filename, text):
         print("Done...")
     except FileNotFoundError as error:
         print("The file was not found...")
+
+def download(link):
+    print(f"Downloading file from {link}...")
+    get = wget.download(link)
+    print(f" \n Downloaded file from {link}...")
+

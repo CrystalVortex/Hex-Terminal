@@ -62,3 +62,8 @@ while True:
         invalid()
     except TypeError as error:
         invalid()
+    except ValueError as error:
+        invalid()
+    except LookupError as error:
+        invalid()
+
