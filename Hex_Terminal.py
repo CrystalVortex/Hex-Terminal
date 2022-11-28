@@ -66,4 +66,3 @@ while True:
         invalid()
     except LookupError as error:
         invalid()
-
