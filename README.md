@@ -7,9 +7,8 @@ A CLI terminal or an alternative to your default terminal/console
 # Features
 
 Plugins which can extend the functionality of Hex Terminal. This can be made fully in python. </br>
-For any OS that supports python ( Macos, Windows, Linux ).
-A package manager called Midnight.
-</br>  
+For any OS that supports python ( Macos, Windows, Linux ).</br>
+A package manager called Midnight.</br>
 Constant new features and updates.   
 
        
