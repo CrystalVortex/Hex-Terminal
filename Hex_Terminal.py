@@ -56,3 +56,5 @@ while True:
         invalid()
     except FileNotFoundError as error:
         invalid()
+    except MemoryError as error:
+        invalid()
