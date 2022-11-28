@@ -30,3 +30,11 @@ def new(filename):
     print(f"Creating file {filename}...")
     file_object  = open(filename, "w+")
     print(f"File {filename} has been created...")
+
+def edit(filename, text):
+    try:
+        file_object = open(filename, "w+")
+        file_object.write(text)
+        print("Done...")
+    except FileNotFoundError as error:
+        print("The file was not found...")

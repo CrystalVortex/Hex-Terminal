@@ -58,5 +58,7 @@ while True:
         invalid()
     except MemoryError as error:
         invalid()      
-    except IndexError as eror:
+    except IndexError as error:
+        invalid()
+    except TypeError as error:
         invalid()
