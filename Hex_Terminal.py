@@ -41,7 +41,7 @@ def invalid():
 log.log_g("Loading complete!")
 
 while True:
-    cmd = input('User@Hex: ')
+    cmd = input('User@Hex ~ $: ')
     try:
       exec(cmd)
     except SyntaxError as error:
