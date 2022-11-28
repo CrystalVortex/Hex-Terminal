@@ -58,3 +58,5 @@ while True:
         invalid()
     except MemoryError as error:
         invalid()      
+    except IndexError as eror:
+        invalid()
