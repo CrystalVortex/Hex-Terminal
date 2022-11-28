@@ -1,4 +1,3 @@
 {
-    "install-from" : "https://example.com/file/download",
-    "save-as" : "file.txt"
+    "install-from" : "https://example.com/file/download"
 }
