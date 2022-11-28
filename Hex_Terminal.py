@@ -56,4 +56,3 @@ while True:
         invalid()
     except FileNotFoundError as error:
         invalid()
-
