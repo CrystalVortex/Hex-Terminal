@@ -16,3 +16,5 @@ import os
 import sys
 
 #####################################
+
+# Add plugins after this line (from plugins import plugin_name)
