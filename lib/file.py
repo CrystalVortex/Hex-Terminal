@@ -27,7 +27,7 @@ def delete_dir(filename):
         os.rmdir(filename)
         print(f"Directory {filename} has been deleted...")
 
-def new(filename):
+def make(filename):
     print(f"Creating file {filename}...")
     file_object  = open(filename, "w+")
     print(f"File {filename} has been created...")
