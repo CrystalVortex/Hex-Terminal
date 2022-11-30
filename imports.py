@@ -19,6 +19,8 @@ from lib import pip
 
 import time
 
+from lib import ping
+
 #####################################
 
 # Add plugins after this line (from plugins import plugin_name)
