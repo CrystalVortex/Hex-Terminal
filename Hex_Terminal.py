@@ -16,7 +16,7 @@ def prnt():
                                             
                                             
                                     
-    {build_version} (Test version 1)
+    [{build_version}] 
 
     """)
 
