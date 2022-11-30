@@ -45,6 +45,10 @@ log.log_g("Loading complete!")
 
 while True:
     cmd = input('User@Hex ~ $: ')
+    if cmd == "exit":
+        log.log_r("Closing terminal...")
+        time.sleep(2)
+        exit()
     try:
       exec(cmd)
     except SyntaxError as error:

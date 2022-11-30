@@ -17,6 +17,8 @@ import sys
 
 from lib import pip
 
+import time
+
 #####################################
 
 # Add plugins after this line (from plugins import plugin_name)
