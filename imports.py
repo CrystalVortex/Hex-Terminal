@@ -15,6 +15,8 @@ import os
 
 import sys
 
+from lib import pip
+
 #####################################
 
 # Add plugins after this line (from plugins import plugin_name)
