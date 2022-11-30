@@ -69,3 +69,7 @@ while True:
         invalid()
     except LookupError as error:
         invalid()
+    except FileExistsError as error:
+        invalid()
+    except EOFError as error:
+        invalid()
