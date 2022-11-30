@@ -43,6 +43,7 @@ def invalid():
 
 log.log_g("Loading complete!")
 
+
 while True:
     cmd = input('User@Hex ~ $: ')
     if cmd == "::exit":
@@ -50,7 +51,7 @@ while True:
         ans = input()
         if ans == "y":
             log.log_r("Closing terminal...")
-            time.sleep(1.2)
+            time.sleep(0.1)
             exit()
     try:
       exec(cmd)
