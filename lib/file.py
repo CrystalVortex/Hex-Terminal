@@ -45,3 +45,6 @@ def download(link):
     get = wget.download(link)
     print(f" \n Downloaded file from {link}...")
 
+def see(filename):
+    f = open(filename, "r+")
+    print(f.readlines())

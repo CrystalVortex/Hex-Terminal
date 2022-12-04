@@ -31,6 +31,9 @@ from imports import *
 sys.path.insert(0, "plugins")
 
 
+def clear():
+    for i in range(100):
+        print("      ")
 
 
 
@@ -52,6 +55,8 @@ while True:
             log.log_r("Closing terminal...")
             time.sleep(0.1)
             exit()
+    if cmd == "::clear":
+        clear()
     try:
       exec(cmd)
     except SyntaxError as error:
@@ -80,3 +85,5 @@ while True:
         invalid()
     except EOFError as error:
         invalid()
+    except TimeoutError as error:
+        print("TimeoutError...")
