@@ -1,6 +1,6 @@
 build_version = "build 1.1"
 
-def prnt():
+def about():
     print(f"""
     _    _                                   
     | |  | |                                  
@@ -16,11 +16,11 @@ def prnt():
                                             
                                             
                                     
-    [{build_version}] 
+    [{build_version}] Pre-1
 
     """)
 
-prnt()
+about()
 
 print("Loading....")
 
