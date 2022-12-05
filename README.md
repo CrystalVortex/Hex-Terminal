@@ -30,9 +30,9 @@ Hex Terminal is usable although there isn't much features yet and no build instr
         
 </strong>
 
-# Installation
+# Installation - Windows 🪟
 
-# Windows
+
 Install [python](https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe). </br>
 At the top of the repository, click code, download zip. </br>
 Unzip it into a folder and open it. </br>
@@ -41,5 +41,11 @@ Open up command promt or Windows Powershell </br>
 type in cd then paste in the adress. Eg: (cd "C:\users\username\desktop\Best_Terminal_ever") </br>
 then type in ```pip install -r requirements.txt``` </br>
 When its done you can close your terminal and open Hex_Terminal.py
+
+# Installation - Linux ( Ubuntu )
+
+Open up your terminal </br>
+Type in: </br>
+`Coming soon`
 
 
