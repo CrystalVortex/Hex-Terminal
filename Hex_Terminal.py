@@ -87,3 +87,5 @@ while True:
         invalid()
     except TimeoutError as error:
         print("TimeoutError...")
+    except RuntimeError as error:
+        invalid()
