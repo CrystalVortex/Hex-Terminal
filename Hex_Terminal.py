@@ -92,3 +92,5 @@ while True:
     except shutil.Error as error:
         invalid()
         print("If you're trying to install a package it might already be installed.")
+    except ConnectionAbortedError as error:
+        print("Connection Aborted Error")
