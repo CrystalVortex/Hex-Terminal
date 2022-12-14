@@ -23,6 +23,7 @@ from lib import ping
 
 from lib import check
 
+from lib import webserver
 #####################################
 
 # Add plugins after this line (from plugins import plugin_name)
