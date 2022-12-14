@@ -1,2 +1,2 @@
-def example():
-    print("This plugin is working and enabled...")
+def do():
+    print("This is a working test plugin!")

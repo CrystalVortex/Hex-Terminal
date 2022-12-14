@@ -89,3 +89,6 @@ while True:
         print("TimeoutError...")
     except RuntimeError as error:
         invalid()
+    except shutil.Error as error:
+        invalid()
+        print("If you're trying to install a package it might already be installed.")
