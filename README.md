@@ -1,7 +1,7 @@
 
 # Hex-Terminal 
 <strong>
-A CLI terminal or an alternative to your default terminal/console
+An alternative to your default CLI
 
 
 # Features
