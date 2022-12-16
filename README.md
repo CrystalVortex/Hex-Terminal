@@ -39,13 +39,17 @@ Unzip it into a folder and open it. </br>
 in the top bar, right click then click copy adress. </br>
 Open up command promt or Windows Powershell </br>
 type in cd then paste in the adress. Eg: (cd "C:\users\username\desktop\Best_Terminal_ever") </br>
-then type in ```pip install -r requirements.txt``` </br>
+then type in 
+
+```pip install -r requirements.txt``` 
+
+</br>
 When its done you can close your terminal and open Hex_Terminal.py
 
 # Installation - Linux ( Ubuntu )
 
 Open up your terminal </br>
-Type in: </br>
-`Coming soon`
+Type in: </br>`1
+`Coming soon` 
 
 
