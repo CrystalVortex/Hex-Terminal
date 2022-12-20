@@ -15,13 +15,16 @@ def install(pkg):
             if ispkg == "True":
                 print("Package Already Installed!")
                 
-            else:      
-                get = wget.download(f"https://github.com/CrystalVortex/HexTerminalPackages/raw/main/{pkg}.zip")
+            else:
+                r = open("lib/sources/sources.txt", "r")
+                src = r.read()
+                print(src)    
+                get = wget.download(f"{src}/{pkg}.zip")
                 shutil.unpack_archive(f"{pkg}.zip", f"lib/{pkg}")
                 shutil.move(f"lib/{pkg}/{pkg}.py", "lib")
                 file_object = open('imports.py', 'a')
                 file_object.write("\n")
-                file_object.write(f'from lib import {pkg}')
+                file_object.write(f'from lib import {pkg} # Installed automatically by running "midnight.install("{pkg}")"')
                 print("[Midnight]: Install complete... you might have to restart this terminal.")
     else:
             print('Package Does not exist...') 
