@@ -94,3 +94,7 @@ while True:
         print("If you're trying to install a package it might already be installed.")
     except ConnectionAbortedError as error:
         print("Connection Aborted Error")
+    except InterruptedError as error:
+        invalid()
+    except requests.exceptions.ConnectionError as error:
+        print("No internet connection!")

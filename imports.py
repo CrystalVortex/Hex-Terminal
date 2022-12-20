@@ -25,6 +25,8 @@ from lib import check
 
 import shutil
 
+import requests
+
 #####################################
 
 # Add plugins after this line (from plugins import plugin_name)
