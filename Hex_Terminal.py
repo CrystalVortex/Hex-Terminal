@@ -98,3 +98,4 @@ while True:
         invalid()
     except requests.exceptions.ConnectionError as error:
         print("No internet connection!")
+    

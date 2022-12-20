@@ -27,6 +27,8 @@ import shutil
 
 import requests
 
+from lib import db
+
 #####################################
 
 # Add plugins after this line (from plugins import plugin_name)
