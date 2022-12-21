@@ -28,7 +28,7 @@ Hex Terminal is usable although there isn't much features yet and no build instr
         
         
         
-</strong>
+
 
 # Installation - Windows 🪟
 
@@ -51,5 +51,5 @@ When its done you can close your terminal and open Hex_Terminal.py
 Open up your terminal </br>
 Type in: </br>`1
 `Coming soon` 
-
+</strong>
 
