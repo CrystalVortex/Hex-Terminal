@@ -48,7 +48,7 @@ When its done you can close your terminal and open Hex_Terminal.py
 
 # Installation - Linux ( Ubuntu )
 
-Open up your terminal </br>
+Open up your terminal in root </br>
 Type in: </br>`1
 `Coming soon` 
 </strong>
