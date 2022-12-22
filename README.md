@@ -9,12 +9,16 @@ An alternative to your default CLI
 Plugins which can extend the functionality of Hex Terminal. This can be made fully in python. </br>
 For any OS that supports python ( Macos, Windows, Linux ).</br>
 A package manager called Midnight.</br>
-Constant new features and updates.   
+Constant new features and updates. </br>
+Full wiki for every single command </br>
+
+# Help ❓
+See the wiki tab for help or open an issue.
 
        
         
         
- # Requesting new features
+ # Requesting new features 🆕
  
  You can request new features in issues.
  
@@ -22,7 +26,7 @@ Constant new features and updates.
  All you have to do is open up the file called "imports.py" and add the plugin name. For example: You put a file called things.py in the plugins folder, then, you go into the imports.py file and type "from plugins import things" (you dont need to add the .py part)
  
         
-# Additonal notes
+# Additonal notes 🗒️
 Hex Terminal is usable although there isn't much features yet and no build instructions.
         
         
@@ -46,7 +50,7 @@ then type in
 </br>
 When its done you can close your terminal and open Hex_Terminal.py
 
-# Installation - Linux ( Ubuntu )
+# Installation - Linux ( Ubuntu ) 🟠
 
 Open up your terminal in root </br>
 Type in: </br>`1
