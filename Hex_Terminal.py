@@ -42,7 +42,6 @@ def clear():
 def invalid():
   log.log_r("Invalid command or syntax!")
 
-
 log.log_g("Loading complete!")
 
 
@@ -98,4 +97,5 @@ while True:
         invalid()
     except requests.exceptions.ConnectionError as error:
         print("No internet connection!")
-    
+    except PermissionError as error:
+        print("[Permission denied]")
