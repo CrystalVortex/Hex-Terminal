@@ -59,6 +59,7 @@ Type in: </br>
 # Latest updates ⬆️
 Build 1.2 (Latest)
 - When getting a permission error it now says "[Permission denied] [PermissionError]"
+- When opening the terminal it no longer says pre-1
 - removed terminal.py from /lib/ and from imports.py
 - You can now zip up a file using file.zip("filename")
 - Changed the command and message from ping.web(name) to ping.site(website)
