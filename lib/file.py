@@ -1,5 +1,6 @@
 import os
 import wget
+import shutil
 
 def md(foldername):
     print(f"Creating folder {foldername}...")
@@ -48,3 +49,9 @@ def download(link):
 def see(filename):
     f = open(filename, "r+")
     print(f.readlines())
+
+def zip(file):
+    print("Creating zip...")
+    r = shutil.make_archive(file, "zip")
+    print(r)
+    print("Done...")

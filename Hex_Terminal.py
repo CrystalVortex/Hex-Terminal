@@ -98,4 +98,4 @@ while True:
     except requests.exceptions.ConnectionError as error:
         print("No internet connection!")
     except PermissionError as error:
-        print("[Permission denied]")
+        print("[Permission denied] [PermissionError]")
