@@ -54,6 +54,11 @@ When its done you can close your terminal and open Hex_Terminal.py
 
 Open up your terminal in root </br>
 Type in: </br>`1
-`Coming soon` 
+`Coming soon`
+
+# Latest updates ⬆️
+Version 
+
 </strong>
+
 
