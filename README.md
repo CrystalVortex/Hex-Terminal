@@ -22,7 +22,7 @@ See the wiki tab for help or open an issue.
  
  You can request new features in issues.
  
- # Using plugins
+ # Using plugins 🔌
  All you have to do is open up the file called "imports.py" and add the plugin name. For example: You put a file called things.py in the plugins folder, then, you go into the imports.py file and type "from plugins import things" (you dont need to add the .py part)
  
         
