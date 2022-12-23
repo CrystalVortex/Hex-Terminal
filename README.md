@@ -14,6 +14,7 @@ Full wiki for every single command </br>
 
 # Help ❓
 See the wiki tab for help or open an issue.
+If you find a bug just report it in issues. (99.99% impossible)
 
        
         
