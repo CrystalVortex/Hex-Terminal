@@ -1,4 +1,4 @@
-build_version = "build 1.1"
+build_version = "build 1.2"
 
 def about():
     print(f"""
@@ -16,7 +16,7 @@ def about():
                                             
                                             
                                     
-    [{build_version}] Pre-1
+    [{build_version}] 
 
     """)
 
