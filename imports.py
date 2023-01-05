@@ -27,6 +27,8 @@ import requests
 
 from lib import db
 
+from lib import ssh
+
 #####################################
 
 # Add plugins after this line (from plugins import plugin_name)

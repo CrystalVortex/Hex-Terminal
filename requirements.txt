@@ -3,3 +3,4 @@ pathlib
 termcolor
 colorama
 requests
+paramiko

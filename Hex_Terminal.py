@@ -99,3 +99,5 @@ while True:
         print("No internet connection!")
     except PermissionError as error:
         print("[Permission denied] [PermissionError]")
+    except OSError as error:
+        print("[OSError] If you are trying to connect to ssh you might have typed in the details wrong")
