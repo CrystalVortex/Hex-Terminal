@@ -58,7 +58,10 @@ Type in: </br>
 `Coming soon`
 
 # Latest updates ⬆️
-Build 1.2 (Latest)
+Build 1.3 (Latest)
+- Packages now have descriptions
+
+Build 1.2 (Old)
 - When getting a permission error it now says "[Permission denied] [PermissionError]"
 - When opening the terminal it no longer says pre-1
 - removed terminal.py from /lib/ and from imports.py
