@@ -14,6 +14,7 @@ Full wiki for every single command </br>
 
 # Help ❓
 See the wiki tab for help or open an issue.
+If you find a bug just report it in issues. (99.99% impossible)
 
        
         
@@ -53,12 +54,19 @@ When its done you can close your terminal and open Hex_Terminal.py
 # Installation - Linux ( Ubuntu ) 🟠
 
 Open up your terminal in root </br>
-Type in: </br>`1
+Type in: </br>
 `Coming soon`
 
 # Latest updates ⬆️
-Version 
-
+Build 1.2 (Latest)
+- When getting a permission error it now says "[Permission denied] [PermissionError]"
+- When opening the terminal it no longer says pre-1
+- removed terminal.py from /lib/ and from imports.py
+- You can now zip up a file using file.zip("filename")
+- Changed the command and message from ping.web(name) to ping.site(website)
+- New pip.exec(cmd) command
+- Default run test plugin command has changed from test.do() to test.run()
+- New file (settings/settings.json) more on that on the next version
 </strong>
 
 
