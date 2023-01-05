@@ -1,6 +1,6 @@
 
 # Hex-Terminal 
-<strong>
+
 An alternative to your default CLI
 
 
@@ -52,10 +52,28 @@ then type in
 When its done you can close your terminal and open Hex_Terminal.py
 
 # Installation - Linux ( Ubuntu ) 🟠
+At the top of the repository, click code, download zip. </br>
+Unzip it into a folder and open it. </br>
+Open up a terminal in root. </br>
+type in the following commands: </br>
+```
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+```
+It will ask you to press enter to confirm. Run these commands after that: </br>
+```
+sudo apt update
+sudo apt install python3.11 -y
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.11 1
+sudo apt install pip -y
+```
+inside the folder where you unzipped this, right click and open in terminal. </br>
+Type in:
 
-Open up your terminal in root </br>
-Type in: </br>
-`Coming soon`
+```
+pip install -r requirements.txt
+```
+Then you can close the terminal and open Hex_Terminal.py, and you're done. </br>
 
 # Latest updates ⬆️
 Build 1.3 (Latest)
@@ -71,6 +89,4 @@ Build 1.2 (Old)
 - New pip.exec(cmd) command
 - Default run test plugin command has changed from test.do() to test.run()
 - New file (settings/settings.json) more on that on the next version
-</strong>
-
 
