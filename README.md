@@ -60,6 +60,7 @@ Type in: </br>
 # Latest updates ⬆️
 Build 1.3 (Latest)
 - Packages now have descriptions
+- Fixed wiki
 
 Build 1.2 (Old)
 - When getting a permission error it now says "[Permission denied] [PermissionError]"
