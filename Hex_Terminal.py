@@ -1,4 +1,4 @@
-build_version = "build 1.2"
+build_version = "build 1.3"
 
 def about():
     print(f"""
