@@ -1,9 +1,8 @@
 import requests
 import wget
-import zipfile
 import os
-import json
 import shutil
+from bs4 import BeautifulSoup
 
 
 def install(pkg):
@@ -28,3 +27,24 @@ def install(pkg):
                 print("[Midnight]: Install complete... you might have to restart this terminal.")
     else:
             print('Package Does not exist...') 
+
+def info(pkg):
+    print(f"Searching for package {pkg}...")
+    response = requests.get(f"https://github.com/CrystalVortex/HexTerminalPackages/raw/main/{pkg}.zip")
+    if response.status_code == 200:
+            print(f'Package {pkg} was found, fetching...')
+
+
+            url = f'https://raw.githubusercontent.com/CrystalVortex/HexTerminalPackages/main/{pkg}.txt'
+            html_content = requests.get(url).text
+
+            soup = BeautifulSoup(html_content, 'html.parser')
+
+            text = soup.get_text()
+
+            print(text)
+            r = open("lib/sources/sources.txt", "r")
+            src = r.read()
+            print("Packages managed by: " + src)
+
+

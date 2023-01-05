@@ -27,8 +27,6 @@ import requests
 
 from lib import db
 
-from plugins.HexAPI import dbapi
-
 #####################################
 
 # Add plugins after this line (from plugins import plugin_name)
