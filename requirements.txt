@@ -4,3 +4,4 @@ termcolor
 colorama
 requests
 paramiko
+bs4
