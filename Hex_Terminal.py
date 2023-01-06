@@ -1,4 +1,4 @@
-build_version = "build 1.3"
+version = "Version 1.3"
 
 def about():
     print(f"""
@@ -14,9 +14,8 @@ def about():
         | |  __/ |  | | | | | | | | | | (_| | |
         |_|\___|_|  |_| |_| |_|_|_| |_|\__,_|_|
                                             
-                                            
-                                    
-    [{build_version}] 
+                                                                                
+    [{version}] 
 
     """)
 
@@ -26,27 +25,16 @@ print("Loading....")
 
 from imports import *
 
-
-
-sys.path.insert(0, "plugins")
-
-
 def clear():
     for i in range(100):
         print("      ")
 
-
-
-
-
-def invalid():
-  log.log_r("Invalid command or syntax!")
-
 log.log_g("Loading complete!")
-
 
 while True:
     cmd = input('User@Hex ~ $: ')
+    def invalid():
+        log.log_r("Invalid command or syntax! >>> " + cmd)
     if cmd == "::exit":
         print("Are you sure you want to close this terminal? (y,n)")
         ans = input()
@@ -94,6 +82,8 @@ while True:
     except ConnectionAbortedError as error:
         print("Connection Aborted Error")
     except InterruptedError as error:
+        invalid()
+    except NotADirectoryError as error:
         invalid()
     except requests.exceptions.ConnectionError as error:
         print("No internet connection!")
