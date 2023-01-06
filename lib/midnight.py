@@ -46,5 +46,7 @@ def info(pkg):
             r = open("lib/sources/sources.txt", "r")
             src = r.read()
             print("Packages managed by: " + src)
+    else:
+        print("package not found...")
 
 
