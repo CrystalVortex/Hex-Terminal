@@ -1,3 +1,0 @@
-coming soon...
-
-(Installer file for windows)
